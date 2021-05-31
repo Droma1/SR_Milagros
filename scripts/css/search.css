@@ -1,0 +1,28 @@
+.box_search{
+    position: relative;
+    width: 100%;
+    border: 1px solid purple;
+}
+.box_search> .options,.text_search,.btn_search{
+    padding: 10px;
+    border: 0px solid transparent;
+    background-color: transparent;
+    width: auto;
+}
+.box_search>.options{
+    position: relative;
+    border: 1px solid #fff;
+    outline: none;
+}
+.box_search>.text_search:active{
+    border: 0px solid transparent;
+    outline:0px;
+}
+.box_search>.options:focus,.text_search:focus,.btn_search:focus{
+    outline: none;
+}
+@media(max-width:473px){
+    .box_search>.text_search{
+        width: 200px;
+    }
+}

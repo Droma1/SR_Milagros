@@ -1,0 +1,113 @@
+@font-face{
+    font-family: "fedoka";
+    src: url("../font/FOR.ttf") format("truetype");
+    font-weight: normal;
+  font-style: normal;
+}
+*{
+    font-family: "fedoka"; 
+}
+.head_home{
+    background-color: #9267a5;
+}
+.head_home>.container>.row{
+    font-family: "fedoka";
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    border: 0;
+    outline: 0;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    text-shadow: 0px 0px 2px #614a6b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu{
+    background-color: #b693c5;
+    padding: 0px;
+}
+.enlaces{
+    padding: 0px;
+}
+.head_home>.container>.row>.col-md-6>.list-group>li{
+    background-color: transparent;
+    border-radius: 0px;
+}
+.enlaces>a{
+    color: #fff;
+    text-shadow: 0px 0px 2px #614a6b;
+    text-decoration: none;
+    padding: 20px;
+}
+.enlaces>a:hover{
+    background-color: #875f98;
+}
+.btn-c{
+    border-radius: 0px;
+    background-color: #875f98;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 0px 1px #000;
+    padding: 20px;
+}
+.group-it>li{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px #000000;
+}
+.group-it>li>h1{
+    color: #fff;
+    width: 52px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #875f98;
+}
+.view-none{
+    display: block;
+}
+.textos{
+    color: #fff;
+    display: block;
+}
+.btn-menu{
+    display: none;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-menu:hover{
+    color: #fff;
+}
+.banner{
+    background-image: url('../img/banner.jpg');
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.option-list>li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media(max-width:768px){
+    .textos{
+        display: none;
+    }
+    .menu-cont{
+        position: relative;
+        margin: 0px;
+        max-width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu .enlaces a{
+        width: 100%;
+    }
+    .view-none{
+        display: none;
+    }
+    .btn-menu{
+        display: block;
+    }
+}
